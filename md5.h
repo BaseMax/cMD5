@@ -1,3 +1,4 @@
+// Example software for this functions at: https://github.com/BaseMax/cMD5
 #ifndef _MD5_H_
 #include <stdlib.h>
 #include <stdio.h>
