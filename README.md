@@ -18,6 +18,10 @@ gcc md5.c -o md5 -lm
 - Gnu/Linux gcc
 - Windows Mingw
 
+## More examples
+
+- https://github.com/BaseMax/GuessPasswordC/
+
 ---------
 
 # Max Base
