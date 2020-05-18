@@ -30,6 +30,11 @@ gcc example.c -o md5 -lm
 
 Maybe there is **memory problem** in code, please report this.
 
+## Main Implement
+
+- MD5 Crypto in Linux: https://code.woboq.org/linux/linux/crypto/md5.c.html
+- https://people.csail.mit.edu/rivest/Md5.c
+
 ---------
 
 # Max Base
