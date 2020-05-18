@@ -4,9 +4,9 @@ Implement MD5 encryption using c without openssl and extra library.
 
 ## Features
 
-- Small, Tint
-- Not depends on openssl and other
-- Works as well in Linux and Windows
+- Small, Tiny, Pure `c` code
+- Not depends on `openssl` and other
+- Works as well in `Linux` and `Windows`
 
 ## MD5
 
