@@ -28,6 +28,8 @@ gcc example.c -o md5 -lm
 
 - https://github.com/BaseMax/GuessPasswordC/
 
+Maybe there is **memory problem** in my code, please report this.
+
 ---------
 
 # Max Base
