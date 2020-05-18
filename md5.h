@@ -1,4 +1,6 @@
 #ifndef _MD5_H_
+#include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 #include <math.h>
 typedef union uwb {
