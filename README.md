@@ -28,7 +28,7 @@ gcc example.c -o md5 -lm
 
 - https://github.com/BaseMax/GuessPasswordC/
 
-Maybe there is **memory problem** in my code, please report this.
+Maybe there is **memory problem** in code, please report this.
 
 ---------
 
