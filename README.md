@@ -35,6 +35,14 @@ Maybe there is **memory problem** in code, please report this.
 - MD5 Crypto in Linux: https://code.woboq.org/linux/linux/crypto/md5.c.html
 - https://people.csail.mit.edu/rivest/Md5.c
 
+## References
+
+It's not a own work, and depends on MD5 algorithms.
+It's only a test purpose to implement md5 algorithm in c without extra library. Tested on for windows and linux.
+
+- https://en.wikipedia.org/wiki/MD5
+- https://rosettacode.org/wiki/MD5/Implementation#C
+
 ---------
 
 # Max Base
