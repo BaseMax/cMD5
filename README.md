@@ -14,6 +14,14 @@ Implement MD5 encryption using c without openssl and extra library.
 
 The MD5 message-digest algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities.
 
+## Algorithms
+
+- We need to prepare a table values
+
+**Formula**: `0 < i < 64 : | sin(1+i) | * (2 ^ 32)`
+
+__More details will be written soon.__
+
 ## Compile
 
 ```
@@ -47,6 +55,14 @@ It's only a test purpose to implement md5 algorithm in c without extra library. 
 ### More read about MD5:
 
 - https://tools.ietf.org/html/rfc1321
+
+## More Videos
+
+I have not seen the following videos, But they must be useful:
+
+- https//www.youtube.com/watch?v=53O9J2J5i14
+- https://www.youtube.com/watch?v=F9apz7nKvzQ
+- https://www.youtube.com/watch?v=af3ORsj_k7w
 
 ---------
 
