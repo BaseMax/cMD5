@@ -37,7 +37,7 @@ unsigned rol(unsigned v, short amt) {
 	unsigned msk1 = (1<<amt) -1;
 	return((v>>(32-amt)) & msk1) | ((v<<amt) & ~msk1);
 }
-unsigned *md5(const char *msg, int mlen) {
+unsigned *md5_encode(const char *msg, int mlen) {
 	static numbers h0 = { 0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476 };
 	static DgstFctn ff[] = { &f0, &f1, &f2, &f3 };
 	static short M[] = { 1, 5, 3, 7 };
@@ -110,20 +110,18 @@ unsigned *md5(const char *msg, int mlen) {
 		free(msg2);
 	return h;
 }
-char *md5String(const char *pass, int len) {
-	char *buffer=malloc(sizeof(char)*100); // MAX
-	strcpy(buffer, "");
-	unsigned *d = md5(pass, len);
-	md5Data data;
-	for(int j=0;j<4; j++){
-		data.w = d[j];
-		for(int k=0;k<4;k++) {
-			char temp[10];
-			sprintf(temp, "%02x", data.b[k]);
-			strcat(buffer, temp);
-		}
+char* md5(const char *msg, int mlen) {
+	char *result=malloc(sizeof(char)*33);
+	strcpy(result, "");
+	unsigned *d = md5_encode(msg, strlen(msg));
+	md5Data u;
+	for(int i = 0; i<4; i++) {
+		u.w = d[i];
+		char temp[8];
+		sprintf(temp, "%02x%02x%02x%02x", u.b[0], u.b[1], u.b[2], u.b[3]);
+		strcat(result, temp);
 	}
-	return buffer;
+	return result;
 }
 #define _MD5_H_
 #endif
