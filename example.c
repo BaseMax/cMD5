@@ -7,8 +7,7 @@ int main(void) {
 		char pass[100];
 		printf("\nEnter string: ");
 		scanf("%s", &pass);
-		char *buffer=md5String(pass, strlen(pass));
-		printf("%s\n", buffer);
+		printf("MD5(%s) = %s\n", pass, md5(pass, strlen(pass));
 	}
 	return 0;
 }
