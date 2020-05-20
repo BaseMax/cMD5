@@ -42,6 +42,7 @@ It's only a test purpose to implement md5 algorithm in c without extra library. 
 
 - https://en.wikipedia.org/wiki/MD5
 - https://rosettacode.org/wiki/MD5/Implementation#C
+- https://people.csail.mit.edu/rivest/Md5.c
 
 ### More read about MD5:
 
