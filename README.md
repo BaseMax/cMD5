@@ -55,6 +55,7 @@ It's only a test purpose to implement md5 algorithm in c without extra library. 
 ### More read about MD5:
 
 - https://tools.ietf.org/html/rfc1321
+- https://github.com/emn178/js-md5/blob/master/src/md5.js
 
 ## More Videos
 
