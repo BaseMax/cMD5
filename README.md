@@ -30,8 +30,6 @@ gcc example.c -o md5 -lm
 
 - https://github.com/BaseMax/GuessPasswordC/
 
-Maybe there is **memory problem** in code, please report this.
-
 ## Main Implement
 
 - MD5 Crypto in Linux: https://code.woboq.org/linux/linux/crypto/md5.c.html
