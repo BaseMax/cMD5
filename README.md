@@ -43,6 +43,10 @@ It's only a test purpose to implement md5 algorithm in c without extra library. 
 - https://en.wikipedia.org/wiki/MD5
 - https://rosettacode.org/wiki/MD5/Implementation#C
 
+### More read about MD5:
+
+- https://tools.ietf.org/html/rfc1321
+
 ---------
 
 # Max Base
